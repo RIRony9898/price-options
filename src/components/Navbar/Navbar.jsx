@@ -15,7 +15,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className='bg-yellow-300 text-black px-4'>
+    <nav className='bg-yellow-300 text-black p-4 sticky top-0'>
       <div onClick={() => setOpen(!open)} className="text-3xl md:hidden">
         {open ? <RiMenu2Fill /> : <IoMdClose />}
       </div>
